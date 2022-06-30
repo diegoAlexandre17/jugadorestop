@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.card {
+  border: 1px solid black;
+  margin: 1rem auto;
+  width: 15rem;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img_player {
+  width: 20rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.header__article {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.542) 0%,
+      rgba(3, 3, 4, 0.439) 74%
+    ),
+    url("./img/fondo-fut.jpg");
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+
+  margin: 0;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.home__section .card-img-top {
+  min-height: 250px;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home__section .card {
+  min-width: 300px;
+  border: none;
+}
+
+.home__section {
+  background-color: ghostwhite;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1200px;
+}
+
+.team__page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.542) 0%,
+      rgba(3, 3, 4, 0.439) 74%
+    ),
+    url("./img/team-page-fondo.jpg");
+
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.team__name {
+  color: #ffffff;
+}
+
+.player__page {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000000;
 }
