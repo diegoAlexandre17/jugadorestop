@@ -41,7 +41,7 @@ function TeamPage() {
     }
   };
 
-  //console.log(IdPlayer);
+  console.log(IdPlayer);
 
   /* 80 man city 84 liverpool 88 chelsea 96 juve 97 barca 100 psg*/
 
