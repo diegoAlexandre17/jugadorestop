@@ -26,7 +26,7 @@ code {
       rgba(0, 0, 0, 0.542) 0,
       rgba(3, 3, 4, 0.439) 74%
     ),
-    url("./static/media/fondo-fut.aa08211263ab7026e06e.jpg");
+    url("../media/fondo-fut.aa08211263ab7026e06e.jpg");
   background-size: cover;
   color: #fff;
   display: flex;
@@ -58,7 +58,7 @@ code {
       rgba(0, 0, 0, 0.542) 0,
       rgba(3, 3, 4, 0.439) 74%
     ),
-    url("./static/media/team-page-fondo.18630883b355be8d832a.jpg");
+    url("../media/team-page-fondo.18630883b355be8d832a.jpg");
   background-size: cover;
   min-height: 100vh;
   width: 100%;
