@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import city from "../img/city.jpg";
-import liverpool from "../img/liverpool.jpg";
-import chelsea from "../img/chelsea.jpg";
-import psg from "../img/psg.jpg";
-import realMadrid from "../img/real-madrid.jpg";
-import barcelona from "../img/barcelona.jpg";
-
 const HomeSection = () => {
   return (
     <section className="home__section">
