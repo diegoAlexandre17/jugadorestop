@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.71a5968a.css",
-    "main.js": "/static/js/main.2f11db94.js",
+    "main.js": "/static/js/main.dedcac16.js",
     "static/media/barcelona.jpg": "/static/media/barcelona.3e196c6dc4dbf9999079.jpg",
     "static/media/chelsea.jpg": "/static/media/chelsea.7ba30e23ea9416cdc30a.jpg",
     "static/media/psg.jpg": "/static/media/psg.4150cf32d06fb2683dbd.jpg",
@@ -12,10 +12,10 @@
     "static/media/city.jpg": "/static/media/city.9b27ed73ed076308de72.jpg",
     "index.html": "/index.html",
     "main.71a5968a.css.map": "/static/css/main.71a5968a.css.map",
-    "main.2f11db94.js.map": "/static/js/main.2f11db94.js.map"
+    "main.dedcac16.js.map": "/static/js/main.dedcac16.js.map"
   },
   "entrypoints": [
     "static/css/main.71a5968a.css",
-    "static/js/main.2f11db94.js"
+    "static/js/main.dedcac16.js"
   ]
 }

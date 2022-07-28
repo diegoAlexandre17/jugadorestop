@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import PlayerCard from "./PlayerCard";
 
 const SingleTeamPage = ({ team }) => {
@@ -7,7 +5,6 @@ const SingleTeamPage = ({ team }) => {
     <>
       <section>
         <h1 className="team__name">{team.name}</h1>
-        <div>hola</div>
         <img
           className="animate__animated animate__fadeInLeft"
           src={team.logo}

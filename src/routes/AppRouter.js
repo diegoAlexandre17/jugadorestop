@@ -13,9 +13,10 @@ const AppRouter = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/jugadores-top-app" element={<Home />} />
-          <Route path="/:IdTeam" element={<TeamPage />}>
-            <Route path=":IdPlayer" element={<PlayerPage />} />
+          <Route path="/jugadores-top-app" element={<Home />}>
+            <Route path="/:IdTeam" element={<TeamPage />}>
+              <Route path=":IdPlayer" element={<PlayerPage />} />
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>
