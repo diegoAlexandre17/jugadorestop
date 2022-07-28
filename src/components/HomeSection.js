@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import barca from "../img/barcelona.jpg";
+import chelsea from "../img/chelsea.jpg";
+import city from "../img/city.jpg";
+import liverpool from "../img/liverpool.jpg";
+import psg from "../img/psg.jpg";
+import realMadrid from "../img/real-madrid.jpg";
 
 const HomeSection = () => {
   return (

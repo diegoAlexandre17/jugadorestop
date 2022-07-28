@@ -35,7 +35,7 @@ const Navbar = () => {
       </nav> */}
       <nav className="px-3 navbar navbar-expand-md navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/jugadores-top-app/">
             Home
           </Link>
           <button
@@ -52,32 +52,50 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav w-100  d-flex justify-content-center">
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/76">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/76"
+                >
                   Real Madrid
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/97">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/97"
+                >
                   Barcelona
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/88">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/88"
+                >
                   Chelsea
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/84">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/84"
+                >
                   Liverpool
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/80">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/80"
+                >
                   Manchester City
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-item nav-link" to="/100">
+                <NavLink
+                  className="nav-item nav-link"
+                  to="jugadores-top-app/100"
+                >
                   PSG
                 </NavLink>
               </li>
