@@ -13,7 +13,7 @@ const SingleTeamPage = ({ team }) => {
       </section>
       <section className="container d-flex flex-wrap">
         {team.players.map((player) => (
-          <PlayerCard key={player.player_key} player={player} />
+          <PlayerCard key={crypto.randomUUID()} player={player} />
         ))}
       </section>
     </>

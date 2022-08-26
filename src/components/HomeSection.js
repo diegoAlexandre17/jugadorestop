@@ -11,7 +11,7 @@ const HomeSection = () => {
   return (
     <section className="home__section">
       <div id="home-section" className="container grid-container">
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/city.9b27ed73ed076308de72.jpg"
             className="card-img-top"
@@ -25,7 +25,7 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/liverpool.83ed34d44ace5a4ccd7b.jpg"
             className="card-img-top"
@@ -39,7 +39,7 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/chelsea.7ba30e23ea9416cdc30a.jpg"
             className="card-img-top"
@@ -53,7 +53,7 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/psg.4150cf32d06fb2683dbd.jpg"
             className="card-img-top"
@@ -67,7 +67,7 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/real-madrid.3fea7a50cb3bfaa88ab1.jpg"
             className="card-img-top"
@@ -81,7 +81,7 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div data-aos="flip-left" className="card">
           <img
             src="https://raw.githubusercontent.com/diegoAlexandre17/jugadores-top-app/master/docs/static/media/barcelona.3e196c6dc4dbf9999079.jpg"
             className="card-img-top "

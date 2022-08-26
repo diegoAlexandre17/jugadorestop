@@ -41,7 +41,7 @@ const PlayerPage = () => {
         <Loader />
       ) : (
         <div className="row g-0 p-4 animate__animated animate__fadeIn">
-          <section className=" col-md-4">
+          <section className=" col-md-4 p-3">
             <img
               className="card-img-top img-thumbnail img_player"
               src={player.img}

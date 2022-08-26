@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from "../components/Home";
 
@@ -10,15 +10,15 @@ import PlayerPage from "../components/PlayerPage";
 const AppRouter = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
-          <Route path="/jugadores-top-app" element={<Home />} />
-          <Route path="/jugadores-top-app/:IdTeam" element={<TeamPage />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/:IdTeam" element={<TeamPage />}>
             <Route path=":IdPlayer" element={<PlayerPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
