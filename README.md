@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Jugadores Top.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desarrollo de una aplicación la cual visualiza la plantilla de los equipos europeos, además de reflejar la estadística de sus jugadores, partidos jugados, minutos jugados, goles, asistencias etc.
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+![img-inicio](./img-proyecto/inicio.png)
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![img-inicio](./img-proyecto/inicio2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+### El reto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Los usuarios deben poder:
 
-### `npm run build`
+- Ver el diseño óptimo para el sitio según el tamaño de la pantalla de su dispositivo.
+- Ver estados y animaciones de desplazamiento para los elementos interactivos en la aplicación.
+- Poder visualizar los equipos y los jugadores.
+- Ver estadísticas de jugadores individuales.
+- Desplazarse por la aplicación a través de rutas en el url.
+- Intercambiar de equipo mediante el menú superior.
+- Interactuar con el menú responsive.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![img-inicio](./img-proyecto/team.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+![img-inicio](./img-proyecto/team2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Construido con:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React JS.
+- React Router.
+- Bootstrap 5.
+- JavaScript.
+- API: [All Sport Api](https://allsportapi.com/)
+- HTML 5.
+- CSS custom properties.
+- Flexbox.
+- Diseño responsive.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Lo que aprendí:
 
-## Learn More
+Gracias a este proyecto pude aprender:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React, Hooks, useEffect, useState, Customs Hooks.
+- Manejar rutas con React Router, Hooks de React Router useParams, useNavigate.
+- Peticiones asíncronas con la Api Fecth de Javascript.
+- Mejorar mis habilidades con Bootstrap 5.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+![img-inicio](./img-proyecto/player-responsive.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+![img-inicio](./img-proyecto/menu-responsive.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author:
 
-### Making a Progressive Web App
+### Diego Rangel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Twitter - [@darf_132](https://www.twitter.com/darf_132)

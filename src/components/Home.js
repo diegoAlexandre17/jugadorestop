@@ -8,7 +8,7 @@ const Home = () => {
       <header className="header__video">
         <article className=" header__article">
           <h1>
-            Visualiza los jugadores de las plantillas TOP y sus estadisticas.
+            Visualiza los jugadores de las plantillas TOP y sus estadísticas.
           </h1>
           <h2>Descubre todo sobre tus jugadores favoritos.</h2>
         </article>
