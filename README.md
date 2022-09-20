@@ -2,6 +2,8 @@
 
 Desarrollo de una aplicación la cual visualiza la plantilla de los equipos europeos, además de reflejar la estadística de sus jugadores, partidos jugados, minutos jugados, goles, asistencias etc.
 
+- Deploy: [Jugadores Top App](https://jugadorestop.netlify.app/)
+
 <br>
 
 ![img-inicio](./img-proyecto/inicio.png)
